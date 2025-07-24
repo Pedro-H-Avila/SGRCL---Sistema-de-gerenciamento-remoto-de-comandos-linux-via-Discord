@@ -1,0 +1,1 @@
+# SGRCL---Sistema-de-gerenciamento-remoto-de-comandos-linux-via-Discord
