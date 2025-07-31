@@ -9,7 +9,17 @@ import uuid
 import os
 import time
 from dotenv import load_dotenv
+# import socket
 
+# # Carrega variáveis de ambiente
+# load_dotenv()
+# API_URL = os.getenv("API_URL", "http://localhost:8000")
+# def get_unique_machine_name():
+#     base_name = os.getenv("MACHINE_NAME_BASE", "maquina")
+#     hostname = socket.gethostname()
+#     return f"{base_name}_{hostname}"
+
+# MACHINE_NAME = get_unique_machine_name()
 # Carrega variáveis de ambiente
 load_dotenv()
 API_URL = os.getenv("API_URL", "http://localhost:8000")
